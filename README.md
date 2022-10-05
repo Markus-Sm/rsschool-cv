@@ -1,3 +1,3 @@
 # rsschool-cv
 
-CV.Markdown & Git
+CV.Markdown & Git https://markus-sm.github.io/rsschool-cv/cv
