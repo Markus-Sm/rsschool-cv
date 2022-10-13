@@ -1,0 +1,228 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.main-container-centered {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-width: 1400px;
+	margin: 0 auto;
+    box-shadow: 0rem 0rem 1rem #555;
+}
+
+body {
+	font-family: 'Jost', sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.section-1 {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3)), url(images/bg.jpg) center no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+
+.section-1-heading {
+	font-size: 6rem;
+	font-weight: 600;
+	color: #fff;
+	background-color: #e41c6f;
+	padding: 0 3rem;
+	margin-bottom: 5rem;
+	text-transform: uppercase;
+	letter-spacing: 1rem;
+	border-bottom: 0.3rem solid #fff;
+	text-shadow: 0.2rem 0.2rem 1rem #555;
+	transform: skew(-10deg);
+}
+
+.person-img{
+    width: 25rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.7rem dotted #e41c6f;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding:  .5rem;
+    opacity: 0.9;
+}
+
+.person-name{
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e41c6f;
+    margin: 5rem 0;
+    padding: .5rem 3rem;
+    letter-spacing: .3rem;
+    transform: skew(-10deg);
+}
+
+.navbar{
+    width: 100%;
+    height: 4rem;
+    background-color: #e41c6f;
+    box-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+
+.navbar-link{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 3rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar-link:hover{
+    color: #fff;
+}
+
+.navbar-link::before{
+    content: "";
+    width: 0%;
+    height: 0.2rem;
+    background-color: #fff;
+    position: absolute;
+    right: -15%;
+    bottom: -0.3rem;
+    transition: width .2s;
+}
+
+.navbar-link:hover::before{
+    width: 130%;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Aside */ 
+.aside-container{
+    width: 20%;
+    max-height: max-content;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 6rem;
+    border-right: dotted .5rem #e41c6f;;
+}
+
+.header-aside{
+    font-size: 2.6rem;
+}
+
+.contact{
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+.contact a{
+    color: royalblue;
+}
+
+.aside-span{
+    font-weight: 600;
+}
+
+.skills{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.language{
+    font-size: 1.6rem;
+}
+
+/* End of aside */
+.right-container{
+    width: 80%;
+    padding: 6rem;
+    background-color: #eef;
+}
+
+.section-heading{
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+.section-about{
+    margin-bottom: 4rem;
+    font-size: 1.6rem;width: 70%;
+}
+
+.education ul{
+    margin-bottom: 4rem;
+    font-size: 1.6rem;
+}
+
+.experience{
+    font-size: 1.6rem;
+}
+
+.experience ul{
+    margin-bottom: 4rem;
+}
+
+.experience ul a{
+    color: royalblue;
+}
+
+.code-example{
+    font-size: 1.6rem;
+}
+
+summary{
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    border-top: solid .3rem #e41c6f;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-content{
+    font-size: 1.6rem;
+}
+
+.footer-content img{
+    width: 5rem;
+    height: 5rem;
+}
