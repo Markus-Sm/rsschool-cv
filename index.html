@@ -14,21 +14,19 @@
     <div class="main-container-centered">
         <header>
             <section class="section-1">
-                <h1 class="section-1-heading">Front-end Developer</h1>
-                <img src="images/me.jpg" alt="profile picture of Mark Samofal" class="person-img">
+                <h1 class="section-1-heading">Front-end Developer</h1> <img src="images/me.jpg"
+                    alt="profile picture of Mark Samofal" class="person-img">
                 <h3 class="person-name">Marek Samofal</h3>
             </section>
-            <nav class="navbar center">
-                <a href="#about" class="navbar-link">About</a>
-                <a href="#education" class="navbar-link">Education</a>
-                <a href="#language" class="navbar-link">Language</a>
-                <a href="#skills" class="navbar-link">Skills</a>
-                <a href="#experience" class="navbar-link">Experience</a>
-                <a href="#code-example" class="navbar-link">Code Example</a>
+            <nav class="navbar center"> <a href="#about" class="navbar-link">About</a> <a href="#education"
+                    class="navbar-link">Education</a> <a href="#language" class="navbar-link">Language</a> <a
+                    href="#skills" class="navbar-link">Skills</a> <a href="#experience"
+                    class="navbar-link">Experience</a> <a href="#code-example" class="navbar-link">Code Example</a>
             </nav>
         </header>
         <main class="main-container">
-            <aside class="aside-container">                <nav>
+            <aside class="aside-container">
+                <nav>
                     <h2 class="contacts-list header-aside">Contacts:</h2>
                     <ul class="contact">
                         <li><span class="aside-span">Location:</span> Wroclaw</li>
@@ -123,39 +121,24 @@
                     <h2 class="section-heading" id="code-example">Code Example</h2>
                     <details>
                         <summary>👉 Target</summary>
-                        <pre>
-                            <code>
-    //JavaScript program to change color in the color palette. 
-
-//taking a body element and adding a class that will be targeted
-
-function changeColor(){
-    document.body.classList = this.classList;
-}
-                                
-//getting all the color classes and, using a forEach loop, calling a function on the class that will be pushed in.
-
-const items = document.querySelectorAll('.color')
-    items.forEach(function(item){
-    item.addEventListener('click', changeColor)
-})
-                            </code>
-                        </pre>
+                        <pre> <code>
+//JavaScript program to change color in the color palette. 
+//taking a body element and adding a class that will be targeted 
+    function changeColor()
+        { document.body.classList = this.classList; }
+ //getting all the color classes and, using a forEach loop, calling a function on the class that will be pushed in.
+const items = document.querySelectorAll('.color') 
+items.forEach(function(item){ item.addEventListener('click', changeColor) }) </code> </pre>
                     </details>
                 </section>
             </section>
         </main>
         <footer>
-            <div class="footer-content">
-                <a href="https://github.com/Markus-Sm" target="_blank">
-                    <img src="images/GitHub-Mark-32px.png" alt="github-id-link">
-                </a>
-                <time>2022-10</time>
-                <a href="https://rs.school/js-en/" target="_blank">
-                    <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool">
-                </a>
-            </div>
-        </footer>   
+            <div class="footer-content"> <a href="https://github.com/Markus-Sm" target="_blank"> <img
+                        src="images/GitHub-Mark-32px.png" alt="github-id-link"> </a> <time>2022-10</time> <a
+                    href="https://rs.school/js-en/" target="_blank"> <img
+                        src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"> </a> </div>
+        </footer>
     </div>
 </body>
 </html>
