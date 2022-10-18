@@ -226,3 +226,37 @@ summary{
     width: 5rem;
     height: 5rem;
 }
+
+@media(max-width: 1500px){
+    .main-container-centered {
+        max-width: 1300px;
+    }
+}
+
+@media(max-width: 1350px){
+    .main-container-centered {
+        max-width: 1100px;
+    }
+}
+
+@media(max-width: 1200px){
+    .main-container-centered {
+        max-width: 1000px;
+    }
+
+    .navbar-link{
+        font-size: 1.2rem;
+    }
+
+    .aside-container h2{
+        font-size: 2rem;
+    }
+
+    .aside-span{
+        font-size: 1.4rem;
+    }
+
+    .contact li{
+        font-size: 1.2rem;
+    }
+}
